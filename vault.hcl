@@ -1,5 +1,6 @@
-storage "postgresql" {
-  connection_url = "postgres://username:password@localhost:5432/vault?sslmode=disable"
+storage "raft" {
+  path    = "/vault/data"
+  node_id = "node1"
 }
 
 listener "tcp" {
