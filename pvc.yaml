@@ -6,7 +6,7 @@ metadata:
   namespace: vault
 spec:
   accessModes:
-    - ReadWriteOnce
+    - ReadWriteMany
   resources:
     requests:
       storage: 8Gi

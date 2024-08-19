@@ -6,7 +6,7 @@ metadata:
   namespace: paperless
 spec:
   accessModes:
-    - ReadWriteOnce
+    - ReadWriteMany
   persistentVolumeReclaimPolicy: Retain
   capacity:
     storage: 8Gi
